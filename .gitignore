@@ -1,4 +1,5 @@
-/HackAtSac.github.io.iml
+.gitignore
+
 _site
 .sass-cache
 .jekyll-metadata
