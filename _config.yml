@@ -13,7 +13,7 @@ description: >
   learning new technologies, or expanding your portfolio, you'll
   fit right into our community.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hackatsac.github.io" # the base hostname & protocol for your site
+url: "http://www.hackatsac.com" # the base hostname & protocol for your site
 twitter_username: hackatsac
 github_username:  HackAtSac
 

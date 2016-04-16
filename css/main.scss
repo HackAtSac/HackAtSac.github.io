@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Roboto', sans-serif;;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,11 +16,48 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #C8C347;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$green-00: #39A039;  // Green */
+$green-01: #83E983;
+$green-02: #5DCE5D;
+$green-03: #1E6C1E;
+$green-04: #0C3B0C;
+
+$blue-00: #3B4B87;  // Blue */
+$blue-01: #8799DC;
+$blue-02: #5B6DB0;
+$blue-03: #212E5C;
+$blue-04: #0F1732;
+
+$yellow-00: #C8C347;  // Yellow */
+$yellow-01: #FFFB8F;
+$yellow-02: #FFFB73;
+$yellow-03: #878425;
+$yellow-04: #4A480F;
+
+$green-10: #599B59;	// Main Primary color */
+$green-11: #8FD68F;
+$green-12: #7DC07D;
+$green-13: #468046;
+$green-14: #375F37;
+
+$blue-10: #525D83;	// Main Secondary color (1) */
+$blue-11: #8692BE;
+$blue-12: #717CA3;
+$blue-13: #414A6C;
+$blue-14: #333951;
+
+$yellow-10: #C2BF70;	// Main Secondary color (2) */
+$yellow-11: #FFFCAA;
+$yellow-12: #F0ED9C;
+$yellow-13: #A09D57;
+$yellow-14: #777645;
+
 
 // Width of the content area
 $content-width:    800px;
