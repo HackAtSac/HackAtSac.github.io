@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-subtitle: The people behind Hack At Sac
+subtitle: The people behind Hack@Sac
 permalink: /people/
 
 people:
@@ -17,10 +17,7 @@ people:
 {% for person in page.people %}
 ### {{ person.name }}
 {%if person.title%}
-#### _{{ person.title }}_
-{%endif%}
-{%if person.about%}
-{{ person.about }}
-{%endif%}
+    {{ person.title }}{%endif%}{%if person.about%}
+    {{ person.about }}{%endif%}
 {% endfor %}
 

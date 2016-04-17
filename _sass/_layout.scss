@@ -177,6 +177,7 @@
     .wrapper {
         padding-top: 30px;
         background-color: #fff;
+        box-shadow: 4px 4px 8px $green-14;
     }
 }
 
@@ -221,6 +222,10 @@
         font-size: 36px;
     }
 }
+.post-subtitle {
+    color: lighten($text-color, 40%);
+}
+
 
 .post-content {
     margin-bottom: $spacing-unit;

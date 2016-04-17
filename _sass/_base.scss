@@ -8,11 +8,16 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+html {
+    min-width: 500px;
+}
 
 /**
  * Basic styling
  */
 body {
+    position: relative;
+    width: 100%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
