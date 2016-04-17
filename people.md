@@ -7,10 +7,10 @@ permalink: /people/
 people:
   - name: Varun Ved
     title: Python Perpetuator
-    about: A
+    about: 3rd year CS student
   - name: Matthew Merrill
     title: Enterprise Enthusiast
-    about: Test!
+    about: 1st year CS student
 
 ---
 
