@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to HackAtSac!"
+title:  "Welcome to Hack@Sac!"
 date:   2016-04-14 17:57:37 -0700
 categories: hackatsac
 ---
