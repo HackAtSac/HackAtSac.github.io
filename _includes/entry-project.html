@@ -1,0 +1,14 @@
+{%assign project=include.project%}
+<div class="entry" {%if project.img%}style="min-height: 130px"{%endif%}>
+
+    {%if project.img%}
+    <div class="entry-image" style="width:128px;height:128px;float:{{include.float | default: "left"}}">
+        <img src="{{project.img}}" />
+    </div>
+    {%endif%}
+
+    <div class="entry-text" {%if project.img%}style="padding-{{include.float | default: 'left'}}:138px;"{%endif%}>
+        <a href="{{ project.url }}"><h4 class="project-name">{{ project.name }}</h4></a>
+        {{project.description}}
+    </div>
+</div>
