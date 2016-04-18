@@ -1,0 +1,23 @@
+{%assign entry=include.entry%}
+{%capture floatside%}{{include.float|default:'left'}}{%endcapture%}
+<div class="entry" {%if entry.img%}style="min-height: 130px"{%endif%}>
+
+    {%if entry.img%}
+    <div class="entry-image" style="float:{{floatside}}">
+        <img src="{{entry.img}}"/>
+        {%if include.isfirst%}
+        <p style="text-align: center;">^^^ Hover!</p>
+        {%endif%}
+    </div>
+    {%endif%}
+
+    <div class="entry-text" {%if entry.img%}style="text-align:{{floatside}};padding-{{floatside}}:138px;"{%endif%}>
+        <h2 class="entry-name">
+            <a href="{{ entry.url }}">
+                {{ entry.name }}
+            </a>
+        </h2>
+
+        <p>{{entry.description}}</p>
+    </div>
+</div>

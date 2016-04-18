@@ -254,3 +254,22 @@
         }
     }
 }
+
+.entry-image {
+    width: 128px;
+    height: 128px;
+    img {
+        transition: all .2s ease-in-out;
+        width:128px;
+    }
+    img:hover {
+        transform: scale(2.5);
+    }
+}
+
+.entry-text {
+    padding-left: 140px;
+    padding-right: 140px;
+    p {
+    }
+}

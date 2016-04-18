@@ -6,18 +6,18 @@ permalink: /people/
 
 people:
   - name: Varun Ved
-    title: Python Perpetuator
-    about: 3rd year CS student
+    description: 3rd year CS student
+    img: /img/people/varunved.jpg
   - name: Matthew Merrill
-    title: Enterprise Enthusiast
-    about: 1st year CS student
+    description: 1st year CS student
+    img: /img/people/matthewmerrill.jpg
 
 ---
 
 {% for person in page.people %}
-### {{ person.name }}
-{%if person.title%}
-    {{ person.title }}{%endif%}{%if person.about%}
-    {{ person.about }}{%endif%}
+---
+{%capture floatside%}{%cycle 'left', 'right'%}{%endcapture%}
+{%include entry-render.html entry=person float=floatside isfirst=forloop.first%}
 {% endfor %}
+---
 
