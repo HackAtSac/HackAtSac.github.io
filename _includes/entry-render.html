@@ -13,9 +13,9 @@
 
     <div class="entry-text" {%if entry.img%}style="text-align:{{floatside}};padding-{{floatside}}:138px;"{%endif%}>
         <h2 class="entry-name">
-            <a href="{{ entry.url }}">
+            {%if entry.url%}<a href="{{ entry.url }}">{%endif%}
                 {{ entry.name }}
-            </a>
+            {%if entry.url%}</a>{%endif%}
         </h2>
 
         <p>{{entry.description}}</p>

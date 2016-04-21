@@ -7,9 +7,11 @@ permalink: /people/
 people:
   - name: Varun Ved
     description: 3rd year CS student
+    url: http://varunmved.github.io
     img: /img/people/varunved.jpg
   - name: Matthew Merrill
     description: 1st year CS student
+    url: http://matthewmerrill.me
     img: /img/people/matthewmerrill.jpg
 
 ---
